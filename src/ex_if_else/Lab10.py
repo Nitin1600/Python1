@@ -54,11 +54,14 @@
 # else:
 #     print(num, "is a negative number")
 
-num = -5
-if num >= 0:
-    if num == 0:
-        print(num, "is a Zero")
-    else:
-        print(num, "is a posiitve number")
-else:
-    print(num, "is a negative number")
+# num = -5
+# if num >= 0:
+#     if num == 0:
+#         print(num, "is a Zero")
+#     else:
+#         print(num, "is a posiitve number")
+# else:
+#     print(num, "is a negative number")
+
+a = "nitin"
+print(a.count("n"))
