@@ -74,11 +74,30 @@
 #         self.n += 1
 #         return result
 
-def PowTwoGen(max=0):
-    n = 0
-    while n < max:
-        yield 2 ** n
-        n += 1
+# def PowTwoGen(max=0):
+#     n = 0
+#     while n < max:
+#         yield 2 ** n
+#         n += 1
+
+# def all_even():
+#     n = 0
+#     while True:
+#         yield n
+#         n += 2
+
+# def fibonacci_numbers(nums):
+#     x , y = 0, 1
+#     for _ in range(nums):
+#         x , y = y, x+y
+#         yield x
+#
+# def square(nums):
+#     for num in nums:
+#         yield num**2
+#
+# print(sum(square(fibonacci_numbers(10))))
+
 
 
 
